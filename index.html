@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--adding styles-->
+    <link rel="stylesheet" href="style.css">
+
     <title>Word Reverse</title>
 </head>
 <body>
-    <header>
-        <h1> Word Reverse!</h1>
+    <header class="mainHeader">
+        <h1 class="mainTitle"> Word Reverse!</h1>
     </header>
     
-    <section>
+    <section class="mainSection">
         <form action="" class="form" name="form">
             <div>
                 <label for="text"></label>
             <input type="text" name="word" id="word" placeholder="write a word">
             </div>
 
-            <div>
+            <div class="reverseButton">
                 <button type="submit" value="submit" id="reversebutton" onclick="wordReverse()">Reverse!</button>
             </div>
 

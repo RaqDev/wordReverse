@@ -25,8 +25,8 @@ wordReverse.onclick=function() {
 
 function wordReverse() {
 
-    var userInput = document.getElementById('word').value;
-    var result = userInput.split("").reverse().join("");
+    var userInput = document.getElementById('word').value; //This take the input from the user and save it in to the variable
+    var result = userInput.split("").reverse().join(""); // then this variable take tha 1st variable and splt, reverse and join the word
 
     alert(result);
 }

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Hind',sans-serif;
+}
+
+.mainHeader {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.mainSection {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reverseButton {
+    margin:auto;
+    text-align: center;
+    padding: 2rem;
+   
+}
